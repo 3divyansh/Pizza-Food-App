@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import MainLayout from './layout/MainLayout';
 import HeroSection from './components/HeroSection';
 import Profile from './components/Profile';
+import SearchPage from './components/SearchPage';
 
 const appRouter = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const appRouter = createBrowserRouter([
       {
         path : "/profile",
         element : <Profile />,
+      },
+      {
+        path  : "/search/:query",
+        element : <SearchPage />,
       },
     ]
   },
