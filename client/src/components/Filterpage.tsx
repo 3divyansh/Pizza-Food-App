@@ -59,4 +59,4 @@ Reset
   )
 }
 
-export default Filterpage
+export default Filterpage;
